@@ -33,3 +33,5 @@ git push origin main --force
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+git reset --hard HEAD~1
+git push origin main --force
